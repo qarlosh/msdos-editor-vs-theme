@@ -1,9 +1,9 @@
 {
-  "name": "ms-dos-editor-theme",
-  "displayName": "MS-DOS Editor Theme",
+  "name": "ms-dos-editor-theme-ii",
+  "displayName": "MS-DOS Editor Theme II",
   "description": "An MS-DOS Editor like theme for Visual Studio Code. It is blue.",
-  "version": "1.0.9",
-  "publisher": "ionicabizau",
+  "version": "1.1.0",
+  "publisher": "qarlos",
   "engines": {
     "vscode": "^1.19.0"
   },
@@ -13,21 +13,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "MS-DOS Editor Theme",
+        "label": "MS-DOS Editor Theme II",
         "uiTheme": "vs-dark",
-        "path": "./themes/MS-DOS Editor Theme-color-theme.json"
+        "path": "./themes/MS-DOS Editor Theme-color-theme-II.json"
       }
     ]
   },
-  "homepage": "https://github.com/IonicaBizau/msdos-editor-vs-theme#readme",
-  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "homepage": "https://github.com/qarlosh/msdos-editor-vs-theme-ii#readme",
+  "author": "Qarlos",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/msdos-editor-vs-theme.git"
+    "url": "git+ssh://git@github.com/qarlosh/msdos-editor-vs-theme-ii.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/msdos-editor-vs-theme/issues"
+    "url": "https://github.com/qarlosh/msdos-editor-vs-theme-ii/issues"
   },
   "blah": {
     "description": [
@@ -41,7 +41,7 @@
       },
       {
         "ul": [
-          "Search the VS Code extention library for `MS-DOS` and select `MS-DOS Editor Theme` from the results",
+          "Search the VS Code extention library for `MS-DOS` and select `MS-DOS Editor Theme II` from the results",
           "After downloading the theme, apply it and reload VS Code",
           "To get the proper font working edit your preferences under the `editor.fontFamily` option to include the `'PERFECT DOS VGA 437 Win'` font family."
         ]
@@ -54,25 +54,7 @@
         }
       }
     ],
-    "title": "MS-DOS Editor Theme",
+    "title": "MS-DOS Editor Theme II",
     "no_badges": true
-  },
-  "files": [
-    "bin/",
-    "app/",
-    "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "index.d.ts",
-    "package-lock.json",
-    "bloggify.js",
-    "bloggify.json",
-    "bloggify/"
-  ],
-  "main": "lib/index.js"
+  }
 }
